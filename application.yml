@@ -1,1 +1,6 @@
-spring:\n  profiles:\n    active: default
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8084/eureka
