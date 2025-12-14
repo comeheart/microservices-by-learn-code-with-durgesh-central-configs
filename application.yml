@@ -1,0 +1,1 @@
+spring:\n  profiles:\n    active: default
